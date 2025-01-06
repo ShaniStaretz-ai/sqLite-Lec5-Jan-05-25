@@ -1,2 +1,2 @@
-# sqLite-Lec5-Jun-05-25
+# sqLite-Lec5-Jan-05-25
 python connect to SQLite
