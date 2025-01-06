@@ -56,14 +56,12 @@ def execute_query_delete_update_insert_create(connector, query):
         cursor.execute(query, parameter)
         connector.commit()  ## this will write the changes to the DB
     except sqlite3.OperationalError as e:
-
         raise e
 
 
 def run_first_query():
     my_connector = None
     try:
-
         my_connector = connect_to_db()
         query: str = '''select * 
                         from Employees'''
